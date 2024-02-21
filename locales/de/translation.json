@@ -1,0 +1,51 @@
+{
+  "question_1": "Was ist deine bevorzugte Sprache?",
+  "question_1_desc": "Wähle eine Sprache",
+  "answer_1_1": "Englisch",
+  "answer_1_2": "Französisch",
+  "answer_1_3": "Spanisch",
+  "answer_1_4": "Deutsch",
+  
+  "question_2": "Mit welchem Geschlecht identifizieren Sie sich?",
+  "question_2_desc": "Bitte teilen Sie mit, wie Sie sich selbst identifizieren",
+  "answer_2_1": "Weiblich",
+  "answer_2_2": "Männlich",
+  "answer_2_3": "Andere",
+  
+  "question_3": "Wie alt sind Sie?",
+  "answer_3_1": "18-29 Jahre",
+  "answer_3_2": "30-39 Jahre",
+  "answer_3_3": "40-49 Jahre",
+  "answer_3_4": "50+",
+
+  "question_4": "Was stört Sie am meisten an einem Buch?",
+  "answer_4_1": "Mangelnde Logik",
+  "answer_4_2": "Langsamkeit",
+  "answer_4_3": "Mangelnder Humor",
+  "answer_4_4": "Allzu generisches Ende",
+
+  "question_5": "Was sind Ihre Lieblingsthemen?",
+  "question_5_desc": "Wählen Sie bis zu 3 Themen aus, die Ihnen gefallen",
+  "answer_5_1": "Werwolf",
+  "answer_5_2": "Action",
+  "answer_5_3": "Königliche Besessenheit",
+  "answer_5_4": "Milliardär",
+  "answer_5_5": "Romantik",
+  "answer_5_6": "Jugendliche",
+  "answer_5_7": "Bad Boy",
+
+  "email_text": "Geben Sie Ihre E-Mail-Adresse ein, um vollen Zugriff zu erhalten",
+  "email_placeholder": "Ihre E-Mail-Adresse",
+  "email_sub_text": "Durch die Fortsetzung stimme ich der Datenschutzrichtlinie und den Nutzungsbedingungen zu.",
+
+  "success_thanks": "Vielen Dank",
+  "success_sub_text": "für die Unterstützung und das Bestehen des Quiz",
+
+  "button_next": "Weiter",
+  "button_success": "Quiz wiederholen",
+  "button_success_download": "Meine Antworten herunterladen",
+  "button_error": "Geben Sie eine korrekte E-Mail",
+
+  "loader": "Sammlungen werden für dich gesucht...",
+  "error": "Es ist ein Fehler aufgetreten, versuchen Sie, den Quiz neu zu starten"
+}

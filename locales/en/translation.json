@@ -1,0 +1,52 @@
+{
+  "question_1": "What is your preferred language?",
+  "question_1_desc": "Choose language",
+  "answer_1_1": "English",
+  "answer_1_2": "French",
+  "answer_1_3": "Spanish",
+  "answer_1_4": "German",
+
+  "question_2": "What gender do you identify with?",
+  "question_2_desc": "Please share how do you identify yourself",
+  "answer_2_1": "Female",
+  "answer_2_2": "Male",
+  "answer_2_3": "Other",
+
+  "question_3": "What is your age?",
+  "answer_3_1":"18-29 years",
+  "answer_3_2": "30-39 years",
+  "answer_3_3": "40-49 years",
+  "answer_3_4": "50+",
+
+  "question_4": "What do you hate the most in a book?",
+  "answer_4_1": "Lack of logic",
+  "answer_4_2": "A slow speed",
+  "answer_4_3":"Lack of humor",
+  "answer_4_4":"Way too generic ending",
+
+  "question_5": "What are your favorite topics?",
+  "question_5_desc": "Choose up to 3 topics you like",
+  "answer_5_1":"Werewolf",
+  "answer_5_2": "Action",
+  "answer_5_3": "Royal Obsession",
+  "answer_5_4": "Billionaire",
+  "answer_5_5": "Romance",
+  "answer_5_6": "Young Adult",
+  "answer_5_7": "Bad Boy",
+
+  "email_text": "Enter your email to get full access",
+  "email_placeholder": "Your email",
+  "email_sub_text": "By continuing I agree with Privacy policy and Terms of use.",
+  "button_error_text": "By continuing I agree with Privacy policy and Terms of use.",
+
+  "success_thanks": "Thank you",
+  "success_sub_text": "for supporting and passing quiz",
+
+  "button_next": "Next",
+  "button_success": "Retake quiz",
+  "button_success_download": "Download my answers",
+  "button_error": "Enter correct email",
+
+  "loader": "Finding collections for you...",
+  "error": "Error happened, try to restart quiz"
+}

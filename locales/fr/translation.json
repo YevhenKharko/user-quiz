@@ -1,0 +1,51 @@
+{
+  "question_1": "Quelle est votre langue préférée?",
+  "question_1_desc": "Choisissez une langue",
+  "answer_1_1": "Anglais",
+  "answer_1_2": "Français",
+  "answer_1_3": "Espagnol",
+  "answer_1_4": "Allemand",
+  
+  "question_2": "Avec quel genre vous identifiez-vous ?",
+  "question_2_desc": "Veuillez partager comment vous vous identifiez",
+  "answer_2_1": "Féminin",
+  "answer_2_2": "Masculin",
+  "answer_2_3": "Autre",
+  
+  "question_3": "Quel est votre âge ?",
+  "answer_3_1": "18-29 ans",
+  "answer_3_2": "30-39 ans",
+  "answer_3_3": "40-49 ans",
+  "answer_3_4": "50+",
+
+  "question_4": "Qu'est-ce que vous détestez le plus dans un livre ?",
+  "answer_4_1": "Manque de logique",
+  "answer_4_2": "Une vitesse lente",
+  "answer_4_3": "Manque d'humour",
+  "answer_4_4": "Fin beaucoup trop générique",
+
+  "question_5": "Quels sont vos sujets préférés ?",
+  "question_5_desc": "Choisissez jusqu'à 3 sujets que vous aimez",
+  "answer_5_1": "Loup-garou",
+  "answer_5_2": "Action",
+  "answer_5_3": "Obsession royale",
+  "answer_5_4": "Milliardaire",
+  "answer_5_5": "Romance",
+  "answer_5_6": "Jeune adulte",
+  "answer_5_7": "Mauvais garçon",
+
+  "email_text": "Entrez votre adresse e-mail pour obtenir un accès complet",
+  "email_placeholder": "Votre adresse e-mail",
+  "email_sub_text": "En continuant, j'accepte la politique de confidentialité et les conditions d'utilisation.",
+
+  "success_thanks": "Merci",
+  "success_sub_text": "pour votre soutien et avoir réussi le quiz",
+
+  "button_next": "Suivant",
+  "button_success": "Repasser le quiz",
+  "button_success_download": "Télécharger mes réponses",
+  "button_error": "Veuillez saisir une adresse e-mail correcte",
+
+  "loader": "Recherche de collections pour vous...",
+  "error": "Une erreur s'est produite, essayez de redémarrer le quiz"
+}
