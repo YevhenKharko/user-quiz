@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "type": "language",
+    "alignment": "column",
+    "options": [
+      { "title": "English", "code": "en", "id": 1 },
+      { "title": "French", "code": "fr", "id": 2 },
+      { "title": "Spanish", "code": "es", "id": 3 },
+      { "title": "German", "code": "de", "id": 4 }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "alignment": "row",
+    "options": [
+      { "title": "Female", "imgUrl": "../img/genders/female.png", "id": 1 },
+      { "title": "Male", "imgUrl": "../img/genders/male.png", "id": 2 },
+      { "title": "Other", "imgUrl": "../img/genders/other.png", "id": 3 }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "alignment": "column",
+    "options": [
+      { "title": "18-29 years", "id": 1 },
+      { "title": "30-39 years", "id": 2 },
+      { "title": "40-49 years", "id": 3 },
+      { "title": "50+", "id": 4 }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multiple",
+    "alignment": "column",
+    "options": [
+      { "title": "Lack of logic", "checked": false, "id": 1 },
+      { "title": "A slow speed", "checked": false, "id": 2 },
+      { "title": "Lack of humor", "checked": false, "id": 3 },
+      { "title": "Way too generic ending", "checked": false, "id": 4 }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "bubble",
+    "alignment": "bubble",
+    "options": [
+      { "title": "Werewolf", "imgUrl": "../img/categories/werewolf.png", "checked": false, "id": 1 },
+      { "title": "Action", "imgUrl": "../img/categories/action.png", "checked": false, "id": 2 },
+      { "title": "Royal Obsession", "imgUrl": "../img/categories/royal-obsession.png", "checked": false, "id": 3 },
+      { "title": "Billionaire", "imgUrl": "../img/categories/billionare.png", "checked": false, "id": 4 },
+      { "title": "Romance", "imgUrl": "../img/categories/romance.png", "checked": false, "id": 5 },
+      { "title": "Young Adult", "imgUrl": "../img/categories/young-adult.png", "checked": false, "id": 6 },
+      { "title": "Bad Boy", "imgUrl": "../img/categories/bad-boy.png", "checked": false, "id": 7 }
+    ]
+  }
+]

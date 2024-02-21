@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "What is your preferred language?",
+    "answers": "answer_1",
+    "description": "Choose language"
+  },
+  {
+    "id": 2,
+    "title": "What gender do you identify with?",
+    "answers": "answer_2",
+    "description": "Please share how do you identify yourself"
+  },
+  {
+    "id": 3,
+    "title": "What is your age?",
+    "answers": "answer_3",
+    "description": null
+  },
+  {
+    "id": 4,
+    "title": "What do you hate the most in a book?",
+    "answers": "answer_4",
+    "description": null
+  },
+  {
+    "id": 5,
+    "title": "What are your favorite topics?",
+    "answers": "answer_5",
+    "description": "Choose up to 3 topics you like"
+  }
+]

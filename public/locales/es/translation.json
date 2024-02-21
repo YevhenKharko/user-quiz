@@ -1,0 +1,51 @@
+{
+  "question_1": "¿Cuál es tu idioma preferido?",
+  "question_1_desc": "Elige un idioma",
+  "answer_1_1": "Inglés",
+  "answer_1_2": "Francés",
+  "answer_1_3": "Español",
+  "answer_1_4": "Alemán",
+  
+  "question_2": "¿Con qué género te identificas?",
+  "question_2_desc": "Por favor, comparte cómo te identificas",
+  "answer_2_1": "Femenino",
+  "answer_2_2": "Masculino",
+  "answer_2_3": "Otro",
+
+  "question_3": "¿Cuál es tu edad?",
+  "answer_3_1": "18-29 años",
+  "answer_3_2": "30-39 años",
+  "answer_3_3": "40-49 años",
+  "answer_3_4": "50+",
+
+  "question_4": "¿Qué es lo que más odias en un libro?",
+  "answer_4_1": "Falta de lógica",
+  "answer_4_2": "Velocidad lenta",
+  "answer_4_3": "Falta de humor",
+  "answer_4_4": "Final demasiado genérico",
+
+  "question_5": "¿Cuáles son tus temas favoritos?",
+  "question_5_desc": "Elige hasta 3 temas que te gusten",
+  "answer_5_1": "Hombre lobo",
+  "answer_5_2": "Acción",
+  "answer_5_3": "Obsesión real",
+  "answer_5_4": "Billionaire",
+  "answer_5_5": "Romance",
+  "answer_5_6": "Joven adulto",
+  "answer_5_7": "Chico malo",
+
+  "email_text": "Ingresa tu correo electrónico para obtener acceso completo",
+  "email_placeholder": "Tu correo electrónico",
+  "email_sub_text": "Al continuar, acepto la política de privacidad y los términos de uso.",
+
+  "success_thanks": "Gracias",
+  "success_sub_text": "por apoyar y aprobar el cuestionario",
+  
+  "button_next": "Siguiente",
+  "button_success": "Volver a realizar el cuestionario",
+  "button_success_download": "Descargar mis respuestas",
+  "button_error": "Ingrese un correo electrónico correcto",
+
+  "loader": "Buscando colecciones para ti...",
+  "error": "Ocurrió un error, intenta reiniciar la prueba"
+}
