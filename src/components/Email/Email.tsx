@@ -36,7 +36,7 @@ export const Email = () => {
       localStorage.setItem(`${latestQuestionId + 1}`, `${latestQuestionId + 1}, Email, email, ${email}`);
     }
   
-    navigate('/success');
+    navigate('/user-quiz/success');
   }
   
 

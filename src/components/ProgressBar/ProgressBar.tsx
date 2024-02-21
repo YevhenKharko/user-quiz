@@ -22,7 +22,7 @@ export const ProgressBar: FC<ProgressBarType> = ({ currentQuestionId, totalQuest
   return (
     <StyledBarWrapper>
        <CounterSpan>
-        {currentQuestionId >= 3 && <button onClick={() => navigate(`/quiz/${currentQuestionId - 1}`)}>{'<'}</button>}
+        {currentQuestionId >= 3 && <button onClick={() => navigate(`/user-quiz/quiz/${currentQuestionId - 1}`)}>{'<'}</button>}
         <span className="current">{currentQuestionId}</span>
         <span>/</span>
         <span>{totalQuestions}</span>

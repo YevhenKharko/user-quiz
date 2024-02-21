@@ -30,7 +30,7 @@ export const Loader = () => {
     }, 50);
   
     if (progress >= 100) {
-      navigate('/email');
+      navigate('/user-quiz/email');
     }
   
     return () => clearInterval(interval);

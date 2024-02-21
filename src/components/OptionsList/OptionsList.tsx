@@ -39,12 +39,12 @@ export const OptionsList: FC<OptionsListType> = ({ answer, setCurrentLanguage, c
         setCurrentLanguage(option.code);
       }
       localStorage.setItem(`${answer.id}`, `${currentQuestion.id}, ${currentQuestion.title}, ${type}, ${option.title}`);
-      navigate(`/quiz/${answer.id + 1}`);
+      navigate(`/user-quiz/quiz/${answer.id + 1}`);
     }
 
     if (type === 'single') {
       localStorage.setItem(`${answer.id}`, `${currentQuestion.id}, ${currentQuestion.title}, ${type}, ${option.title}`);
-      navigate(`/quiz/${answer.id + 1}`)
+      navigate(`/user-quiz/quiz/${answer.id + 1}`)
     }
 
     if (type === 'multiple' || type === 'bubble') {
@@ -102,7 +102,7 @@ export const OptionsList: FC<OptionsListType> = ({ answer, setCurrentLanguage, c
         {type === 'multiple' &&
           <Button
             buttonClass="button"
-            handler={() => navigate(`/quiz/${answer.id + 1}`)}
+            handler={() => navigate(`/user-quiz/quiz/${answer.id + 1}`)}
             title={t(`button_next`)}
             disabled={optionsCounter < 1}
           />
@@ -111,7 +111,7 @@ export const OptionsList: FC<OptionsListType> = ({ answer, setCurrentLanguage, c
         {type === 'bubble' &&
           <Button
             disabled={optionsCounter < 1 || optionsCounter > 3}
-            handler={() => navigate(`/loader`)}
+            handler={() => navigate(`/user-quiz/loader`)}
             title={t(`button_next`)}
           />
         }

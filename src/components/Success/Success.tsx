@@ -45,7 +45,7 @@ export const Success = () => {
 
   const restartQuiz = () => {
     localStorage.clear();
-    navigate('/quiz/1')
+    navigate('/user-quiz/quiz/1')
   };
   
   return (

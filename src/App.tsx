@@ -45,16 +45,15 @@ export const App = () => {
         <StyleSheetManager shouldForwardProp={(prop) => prop !== 'percents' && prop !== 'alignment' && prop !== 'active'}>
           <Router>
             <Routes>
-              
-              <Route path="/quiz" element={<Navigate to="/quiz/1" />} />
-              <Route path="/quiz/:questionId" element={<Quiz setCurrentLanguage={setCurrentLanguage}/>} />
+              <Route path="/user-quiz/quiz" element={<Navigate to="/user-quiz/quiz/1" />} />
+              <Route path="/user-quiz/quiz/:questionId" element={<Quiz setCurrentLanguage={setCurrentLanguage}/>} />
 
-              <Route path="/loader" element={<Loader />} />
+              <Route path="/user-quiz/loader" element={<Loader />} />
 
-              <Route path="/email" element={<Email />} />
-              <Route path="/success" element={<Success />} />
+              <Route path="/user-quiz/email" element={<Email />} />
+              <Route path="/user-quiz/success" element={<Success />} />
 
-              <Route path="*" element={<Navigate to="/quiz" />} />
+              <Route path="*" element={<Navigate to="/user-quiz/quiz" />} />
             </Routes>
           </Router>
         </StyleSheetManager>
@@ -62,3 +61,16 @@ export const App = () => {
     </ThemeProvider>
   )
 }
+
+{/* <Route path="/user-quiz/*">
+
+<Route path="quiz" element={<Navigate to="quiz/1" />} />
+<Route path="quiz/:questionId" element={<Quiz setCurrentLanguage={setCurrentLanguage} />} />
+
+<Route path="loader" element={<Loader />} />
+
+<Route path="email" element={<Email />} />
+<Route path="success" element={<Success />} />
+
+<Route path="*" element={<Navigate to="/quiz" />} />
+</Route> */}
