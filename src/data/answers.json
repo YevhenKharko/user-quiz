@@ -15,9 +15,9 @@
     "type": "single",
     "alignment": "row",
     "options": [
-      { "title": "Female", "imgUrl": "../img/genders/female.png", "id": 1 },
-      { "title": "Male", "imgUrl": "../img/genders/male.png", "id": 2 },
-      { "title": "Other", "imgUrl": "../img/genders/other.png", "id": 3 }
+      { "title": "Female", "imgUrl": "/user-quiz/img/genders/female.png", "id": 1 },
+      { "title": "Male", "imgUrl": "/user-quiz/img/genders/male.png", "id": 2 },
+      { "title": "Other", "imgUrl": "/user-quiz/img/genders/other.png", "id": 3 }
     ]
   },
   {
@@ -47,13 +47,13 @@
     "type": "bubble",
     "alignment": "bubble",
     "options": [
-      { "title": "Werewolf", "imgUrl": "../img/categories/werewolf.png", "checked": false, "id": 1 },
-      { "title": "Action", "imgUrl": "../img/categories/action.png", "checked": false, "id": 2 },
-      { "title": "Royal Obsession", "imgUrl": "../img/categories/royal-obsession.png", "checked": false, "id": 3 },
-      { "title": "Billionaire", "imgUrl": "../img/categories/billionare.png", "checked": false, "id": 4 },
-      { "title": "Romance", "imgUrl": "../img/categories/romance.png", "checked": false, "id": 5 },
-      { "title": "Young Adult", "imgUrl": "../img/categories/young-adult.png", "checked": false, "id": 6 },
-      { "title": "Bad Boy", "imgUrl": "../img/categories/bad-boy.png", "checked": false, "id": 7 }
+      { "title": "Werewolf", "imgUrl": "/user-quiz/img/categories/werewolf.png", "checked": false, "id": 1 },
+      { "title": "Action", "imgUrl": "/user-quiz/img/categories/action.png", "checked": false, "id": 2 },
+      { "title": "Royal Obsession", "imgUrl": "/user-quiz/img/categories/royal-obsession.png", "checked": false, "id": 3 },
+      { "title": "Billionaire", "imgUrl": "/user-quiz/img/categories/billionare.png", "checked": false, "id": 4 },
+      { "title": "Romance", "imgUrl": "/user-quiz/img/categories/romance.png", "checked": false, "id": 5 },
+      { "title": "Young Adult", "imgUrl": "/user-quiz/img/categories/young-adult.png", "checked": false, "id": 6 },
+      { "title": "Bad Boy", "imgUrl": "/user-quiz/img/categories/bad-boy.png", "checked": false, "id": 7 }
     ]
   }
 ]

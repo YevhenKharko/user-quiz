@@ -5,6 +5,7 @@ import './18n'
 import { App } from './App.tsx'
 import './index.css'
 
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Suspense fallback={<div>Loading data...</div>}>

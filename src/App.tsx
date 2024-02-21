@@ -53,7 +53,7 @@ export const App = () => {
               <Route path="/email" element={<Email />} />
               <Route path="/success" element={<Success />} />
 
-              <Route path="*" element={<Navigate to="/quiz" />} />
+              {/* <Route path="*" element={<Navigate to="/quiz" />} /> */}
             </Routes>
           </Router>
         </StyleSheetManager>
@@ -61,11 +61,3 @@ export const App = () => {
     </ThemeProvider>
   )
 }
-
-//TODO
-//FIX QUESTION BUG WITH AUTO TRANSALATE THROWS answer_1_2 etc DONE
-// Validation DONE
-// TRY TO SAVE LANGUAGE IN LOCAL STORAGE DONE
-// transition scale for bubble icons
-// COMPLETE EMAIL PAGE DONE
-// COMPLETE DOWNLOAD PAGE
