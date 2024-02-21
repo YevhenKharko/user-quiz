@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import styled, { StyleSheetManager, ThemeProvider } from 'styled-components';
 
 import { Quiz } from './components/Quiz';
