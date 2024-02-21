@@ -30,9 +30,9 @@ const StyledContainer = styled.div`
 
 export const App = () => {
   const languageInStorage = localStorage.getItem('selectedLanguage');
-  const [currentLanguage, setCurrentLanguage] = useState(languageInStorage || 'en');
+  const [ currentLanguage, setCurrentLanguage ] = useState(languageInStorage || 'en');
   const { i18n } = useTranslation();
-
+  
   useEffect(() => {
     const changeLanguage = (lang: string) => i18n.changeLanguage(lang);
     changeLanguage(currentLanguage);
@@ -45,18 +45,18 @@ export const App = () => {
         <StyleSheetManager shouldForwardProp={(prop) => prop !== 'percents' && prop !== 'alignment' && prop !== 'active'}>
           <Router>
             <Routes>
-              <Route path="/user-quiz/*" element={
-                <>
-                  <Route index element={<Navigate to="/user-quiz/quiz/1" />} />
-                  <Route path="quiz/:questionId" element={<Quiz setCurrentLanguage={setCurrentLanguage} />} />
-                  <Route path="loader" element={<Loader />} />
-                  <Route path="email" element={<Email />} />
-                  <Route path="success" element={<Success />} />
-                </>
-              } />
+              
+              <Route path="/quiz" element={<Navigate to="/quiz/1" />} />
+              <Route path="/quiz/:questionId" element={<Quiz setCurrentLanguage={setCurrentLanguage}/>} />
+
+              <Route path="/loader" element={<Loader />} />
+
+              <Route path="/email" element={<Email />} />
+              <Route path="/success" element={<Success />} />
+
+              <Route path="*" element={<Navigate to="/quiz" />} />
             </Routes>
           </Router>
-
         </StyleSheetManager>
       </StyledContainer>
     </ThemeProvider>
