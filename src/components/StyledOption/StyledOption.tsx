@@ -1,5 +1,6 @@
 import { css, styled } from "styled-components";
 import { StyledOptionType } from "../../types/StyledOptionType";
+import { sizes } from "../../style/style";
 
 export const StyledOption = styled.li<StyledOptionType>`
   display: flex;
@@ -51,6 +52,11 @@ export const StyledOption = styled.li<StyledOptionType>`
         padding: 0;
         gap: 6px;
         place-self: center;
+
+        @media ${sizes.laptop} { 
+          width: 110px;
+          height: 110px;
+        }
 
         &:hover,
         &:active {
