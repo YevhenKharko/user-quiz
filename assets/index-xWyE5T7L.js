@@ -245,7 +245,7 @@ ${e=>e.alignment==="bubble"&&nn`
     font-weight: 300;
     line-height: 20px;
     letter-spacing: 0.5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 
     @media ${rs.laptop} { 
       margin-bottom: 40px;
