@@ -230,13 +230,15 @@ ${e=>e.alignment==="bubble"&&nn`
   text-align: center;
   color: ${e=>e.theme.$text_color};
   font-family: 'Albert Sans';
+
   h2 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 24px;
-  letter-spacing: 1.5px;
-  line-height: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
   }
+
   h4 {
     color: ${e=>e.theme.$text_color};
     font-size: 20px;
@@ -246,7 +248,7 @@ ${e=>e.alignment==="bubble"&&nn`
     margin-bottom: 5px;
 
     @media ${rs.laptop} { 
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
   }
 `,i1=({question:e,description:t})=>j.jsxs(r1,{children:[e&&j.jsx("h2",{children:e}),t!=null&&t.includes("question")?null:j.jsx("h4",{children:t})]}),o1="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFQSURBVHgB7Za7SgNBFEDvmvggEVMIQXwQxC/Q2qiNiP+gvZ3/Ifot4mdYWNmolSA2Jiq4YCNmPSO3CMGsIZnJTuAeOOyymTCHzWZmRQzDMEYiy7IqLkrMaOS1WhGPlMUvVVzX83n8FE9MyYRgob6xUN9YqG8s1DcjhbJNHuMpTueMqeEJHklRMPktfuM5lrCOL2pdr13gF95gIkXAxE380FgXtNwV6s7P9LMUd6VICNjBlgZdYlu90mtPeCAxQMi2xnbTwVfck5ggaL8nth3NnexFH4NHfUabEjMEbuGGjAsmK+Mhbkpg3BxuLhkGvtjQpefORUsgdK190Ge60W9c3s40q8eKhN1qSziHM+qf2EuJbyYmdNA/iVsBOhIG15AMMug/1vAeQ4U6VjHNG5AX+obPuII1CUuqc/WNzb3l/NxLHBZkPLwnSdISwzCMX34AozAsq1RsCt8AAAAASUVORK5CYII=",s1=Re.button`
