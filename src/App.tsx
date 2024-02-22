@@ -7,17 +7,7 @@ import { Success } from './components/Success';
 import { Loader } from './components/Loader';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
-const theme = {
-  $width: '375px',
-  $padding: '0 20px',
-  $background_color: '#1f002b',
-  $text_color: '#fff',
-  $accent_color: '#e4229c',
-  $option_background_color: '#36173d',
-  $option_background_active_color: 'rgba(228, 34, 155, 0.2)',
-  $checkbox_background_color: '#6d4376',
-}
+import { sizes, theme } from './style/style';
 
 const StyledContainer = styled.div`
   background-color: ${props => props.theme.$background_color};
@@ -26,6 +16,10 @@ const StyledContainer = styled.div`
   font-size: 24px;
   margin: 0 auto;
   height: 100vh;
+
+  @media ${sizes.laptop} { 
+    width: 100%;
+  }
 `
 
 export const App = () => {
@@ -61,6 +55,9 @@ export const App = () => {
     </ThemeProvider>
   )
 }
+
+// 1. MAYBE CHANGE BASE IN VITE TO BASEURL - FIX ROUTES PROBLEM:
+// 2. ADAPTIVE LAYOUT
 
 {/* <Route path="/user-quiz/*">
 

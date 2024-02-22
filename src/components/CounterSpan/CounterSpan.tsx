@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { sizes } from '../../style/style';
 
 export const CounterSpan = styled.span`
   display: flex;
@@ -15,6 +16,10 @@ button {
   position: relative;
   left: -40%;
   font-weight: 700;
+
+  @media ${sizes.laptop} { 
+    left: -45%;
+  }
 }
 
 span {

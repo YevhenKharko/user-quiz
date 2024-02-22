@@ -50,6 +50,7 @@ export const StyledOption = styled.li<StyledOptionType>`
         transform: scale(1);
         padding: 0;
         gap: 6px;
+        place-self: center;
 
         &:hover,
         &:active {
